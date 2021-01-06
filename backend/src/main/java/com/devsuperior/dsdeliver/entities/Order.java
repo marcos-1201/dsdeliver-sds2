@@ -93,7 +93,7 @@ public class Order implements Serializable {
 		return status;
 	}
 
-	public void seStatus(OrderStatus status) {
+	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
 
